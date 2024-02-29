@@ -15,4 +15,11 @@ export default defineNuxtConfig({
   },
   // this fixes build error but breaks the email rendering
   // also not recommended for production
+  // nitro: {
+  //   esbuild: {
+  //     options: {
+  //       target: "esnext",
+  //     },
+  //   },
+  // },
 });
