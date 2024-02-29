@@ -13,6 +13,8 @@ export default defineLazyEventHandler(async () => {
 
       if (!template) return null;
 
+      setHeader(event, "Content-Type", "text/html; charset=utf-8");
+
       return template.html;
     } catch (error) {
       console.error(error);
