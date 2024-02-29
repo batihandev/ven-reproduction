@@ -16,6 +16,6 @@
     "vue-router": "^4.3.0"
   },
   "stackblitz": {
-    "startCommand": "pnpm run build && pnpm preview"
+    "startCommand": "pnpm run build && pnpm preview"
   }
 }
