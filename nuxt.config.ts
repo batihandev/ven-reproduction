@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   modules: ["@vue-email/nuxt"],
   vueEmail: {
     baseUrl: "https://vue-email-demo.vercel.app/",
-    autoImport: true,
+    autoImport: false,
   },
   // this fixes build error but breaks the email rendering
   // also not recommended for production

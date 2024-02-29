@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // added this import because of the explanation in previous issue but probably not needed
-import { defineProps, withDefaults } from "vue";
+import { withDefaults } from "vue";
 interface Props {
   invitedByUsername?: string;
   teamName?: string;
