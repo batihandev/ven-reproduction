@@ -1,11 +1,13 @@
 <script setup>
+const testResult = ref("");
 async function mailTest() {
-  await $fetch("api/test", {
+  const res = await $fetch("api/test", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
     },
   });
+  testResult.value = res;
 }
 </script>
 
@@ -18,5 +20,11 @@ async function mailTest() {
     >
       Click me
     </button>
+    <iframe
+      :srcdoc="testResult"
+      frameborder="0"
+      width="600"
+      height="1024"
+    ></iframe>
   </div>
 </template>

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@vue-email/nuxt':
-    specifier: ^0.8.18
-    version: 0.8.18(typescript@5.3.3)(vue@3.4.21)
+    specifier: npm:@vue-email/nuxt-edge@0.8.18-28488699.acf7373
+    version: /@vue-email/nuxt-edge@0.8.18-28488699.acf7373(typescript@5.3.3)(vue@3.4.21)
   nuxt:
     specifier: ^3.10.3
     version: 3.10.3(typescript@5.3.3)(vite@5.1.4)
@@ -1900,8 +1900,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@vue-email/nuxt@0.8.18(typescript@5.3.3)(vue@3.4.21):
-    resolution: {integrity: sha512-4Fl7r8MrkCe8tCMCR06z31iDDGkM9kzXqlTW5D2TlSd133McY6q1w4Cb2AK78snCegy3nOIbcD/nyZfKxLNisQ==}
+  /@vue-email/nuxt-edge@0.8.18-28488699.acf7373(typescript@5.3.3)(vue@3.4.21):
+    resolution: {integrity: sha512-8OJ9NItPd3+SIwKzUuQ4twEXobdTMzMdXoPQKZir+7GqoAFBPiXnm5VIoXSOZqJO8C1I8A0aw61x3vPPXLxEbQ==}
     dependencies:
       '@nuxt/kit': 3.10.3
       '@vue-email/compiler': 0.8.14(typescript@5.3.3)(vue@3.4.21)
@@ -5789,6 +5789,7 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    requiresBuild: true
     dev: false
 
   /saxes@6.0.0:
